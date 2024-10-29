@@ -7,6 +7,6 @@ y una carpeta «img» que contendrá los archivos de imagen necesarios.
 Cada página del sitio deberá tener un título único, que describa de forma adecuada su contenido.
 Para crear los documentos, deben utilizarse las mejores técnicas de marcado explicadas en el material
 docente del módulo. Así, deben usarse correctamente las marcas apropiadas para textos, listas, enlaces,
-imágenes, contenedores genéricos y estructurales (<span>, <div>, <header>, <main>, <nav>, etc.), así
+imágenes, contenedores genéricos y estructurales, así
 mismo deben usarse los diversos tipos de selectores CSS que correspondan y aplicar clases e identificadores
 de la manera más semántica posible.
