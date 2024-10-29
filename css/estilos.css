@@ -1,0 +1,288 @@
+:root {
+    --fuente-principal: Helvetica, Arial, sans-serif;
+    --fuente-secundaria: Georgia, Times, serif;
+    --color-enlaces: rgb(240, 93, 80);
+    --color-enlaces-hover: rgba(240, 93, 80, 0.5);
+    --color-fuente: rgb(0, 0, 25);
+    --color-fuente-secundario: rgba(0, 0, 25, 0.5);
+    --color-fuente-footer: rgb(255, 255, 255);
+    --color-enlaces-footer: rgb(255, 255, 255);
+    --color-enlaces-footer-hover: rgb(240, 93, 80);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+main {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main a {
+    color: var(--color-enlaces);
+    text-decoration: none;
+}
+
+main a:hover {
+    color: var(--color-enlaces-hover);
+}
+
+
+h1 {
+    margin-top: 0.75em;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: var(--fuente-secundaria);
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0.75em;
+}
+
+h3 {
+    margin: 1em 0;
+    font-size: 1.75em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+iframe {
+    border: 0;
+}
+
+cite {
+    font-family: Georgia, Times, serif;
+
+}
+
+.quote figcaption {
+    text-align: left;
+}
+
+blockquote {
+    text-align: left;
+    line-height: 1.75em;
+    /* margin-left: 2em; */
+}
+
+.cita-parrafo > p {
+    font-size: 0.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color-enlaces);
+}
+
+nav {}
+
+nav a {
+    font-size: 0.9em;
+    color: var(--color-fuente);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--color-fuente-secundario);
+}
+
+nav a.active {
+    font-weight: 700;
+    font-style: italic;
+}
+
+nav a:link {
+    color: var(--color-fuente);
+    text-decoration: none;
+}
+
+nav li {
+    padding: 0.1em;
+}
+
+.fuente-georgia {
+    font-family: var(--fuente-principal);
+}
+
+/* INDEX */
+.seccion-subtitulo {
+    text-align: center;
+    line-height: 1.6;
+    max-width: 55%;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+}
+
+.subtitulo-texto {
+    margin-bottom: 1.5em;
+}
+
+.subtitulo-autor {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+.subtitulo-fecha {
+    font-size: 0.6em;
+}
+
+figure.imagen {
+    margin-bottom: 2.5em;
+}
+
+figure.imagen figcaption{
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+figure.video {
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+figure.video figcaption {
+    font-size: 0.5em;
+    margin-top: 1.5em;
+}
+
+figure.quote {
+    margin-left: 2em;
+    font-family: var(--fuente-secundaria);
+    margin-bottom: 2em;
+}
+
+figure.quote figcaption {
+    margin-top: 0.75em;
+    font-size: 0.75em;
+}
+
+.texto-resumen {
+    line-height: 1.5em;
+    max-width: 57%;
+
+}
+
+.seccion-final {
+    font-family: var(--fuente-secundaria);
+}
+
+
+/* LISTADO NOBEL LITERATURA */
+.rango-anyos {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 0.85em;
+}
+
+.anyo {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--color-fuente-secundario);
+}
+
+.info-orden {
+    text-align: center;
+    font-size: 0.6em;
+    margin-bottom: 4em;
+}
+
+.titulo-premios {
+    margin-bottom: 0.25em;
+    font-size: 1.25em;
+    color: var(--color-fuente-secundario);
+}
+
+/* Icono idioma */
+.titulo-premios img {
+    height: 1em;
+    margin-right: 0.25em;
+}
+
+.listado-premios {
+    /* margin-left: 4em; */
+    list-style-type: none;
+    max-width: 32em;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+
+.listado-premios-elementos {
+    margin-left: 4em;
+    list-style-type: square;
+}
+
+.listado-premios li {
+    margin-bottom: 0.5em;
+}
+
+.consultado-en {
+    text-align: center;
+    font-size: 0.85em;
+    margin-bottom: 6em;
+}
+
+/* DESCRIPTIÓN LIST MOTIVACIÓN */
+.container-listado-motivacion {
+    max-width: 58em;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin-left: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--color-fuente);
+    color: var(--color-fuente-footer);
+    padding: 4em;
+    text-align: center;
+}
+
+.footer-autor {
+    font-size: 0.85em;
+    margin-bottom: 1.5em;
+}
+
+.footer-copyright {
+    font-size: 0.6em;
+}
+
+footer a {
+    color: var(--color-enlaces-footer);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--color-enlaces-footer-hover);
+}
